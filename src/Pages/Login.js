@@ -73,7 +73,7 @@ const Login = () => {
                             name="Login"
                             isenabled={emailErrorMessage === "" && passwordErrorMessage === ""}
                             onClick={() => {
-                                console.log("Clicked Login");
+                                console.log("Clicked login");
                             }}
                         >
                             <svg
