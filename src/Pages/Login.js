@@ -31,7 +31,7 @@ const Login = () => {
     //Setting Password in state after validating
     const getUserPassword = e => {
         const newPassword = e.target.value;
-        if (newPassword.length < 8 && newPassword.length != 0) {
+        if (newPassword.length < 8 && newPassword.length !== 0) {
             setPasswordErrorMessage("Password should be greater than 8 characters");
         } else {
             setPasswordErrorMessage("");
