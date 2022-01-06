@@ -5,13 +5,13 @@ import history from "./history";
 import Login from "./Pages/Login";
 
 function App() {
-  return (
-    <div>
-      <Router history={history}>
-        <Route exact path="/" component={Login} />
-      </Router>
-    </div>
-  );
+    return (
+        <div>
+            <Router history={history}>
+                <Route exact path="/" component={Login} />
+            </Router>
+        </div>
+    );
 }
 
 export default App;
