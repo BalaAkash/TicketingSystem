@@ -39,6 +39,9 @@ const Login = () => {
         setPassword(newPassword);
     };
 
+    //Login Handler
+    const loginHandler = () => {};
+
     //Password Error Message JSX
     const Passworderror = (
         <span className="flex items-center font-bold tracking-wide text-red-500 text-xs -mt-3 mb-6">{passwordErrorMessage}</span>
@@ -71,7 +74,9 @@ const Login = () => {
 
                         <Button
                             name="Login"
-                            isenabled={emailErrorMessage === "" && passwordErrorMessage === ""}
+                            isenabled={
+                                emailErrorMessage === "" && passwordErrorMessage === "" && userEmail.length > 0 && password.length > 0
+                            }
                             onClick={() => {
                                 console.log("Clicked login");
                             }}
