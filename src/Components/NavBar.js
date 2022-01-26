@@ -53,7 +53,7 @@ function NavBar(props) {
                         {/* <!-- secondary nav --> */}
                         <div className="hidden md:flex items-center space-x-1">
                             <a
-                                href=""
+                                href="/#"
                                 className="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded-lg transition duration-300"
                             >
                                 Logout
