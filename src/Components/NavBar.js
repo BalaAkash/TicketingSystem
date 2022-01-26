@@ -21,7 +21,7 @@ function NavBar(props) {
                         <div className="flex space-x-4">
                             {/* <!-- logo --> */}
                             <div>
-                                <a href="#" className="flex items-center py-3 px-2 text-gray-700 hover:text-gray-900">
+                                <a href="/#" className="flex items-center py-3 px-2 text-gray-700 hover:text-gray-900">
                                     <div className="rounded-full py-2 px-5 bg-gray-900 flex text-center text-white text-md font-bold justify-center flex-col">
                                         <div className="flex justify-center">
                                             SYN<p className="text-orange-600">C</p>
@@ -32,19 +32,19 @@ function NavBar(props) {
 
                             {/* <!-- primary nav --> */}
                             <div className="hidden md:flex items-center space-x-1">
-                                <a href="#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
+                                <a href="/#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
                                     Home
                                 </a>
-                                <a href="#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
+                                <a href="/#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
                                     Create Order
                                 </a>
-                                <a href="#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
+                                <a href="/#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
                                     Track Order
                                 </a>
-                                <a href="#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
+                                <a href="/#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
                                     Create Customer
                                 </a>
-                                <a href="#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
+                                <a href="/#" className="py-3 px-3 text-gray-700 hover:text-gray-900">
                                     Create User
                                 </a>
                             </div>
@@ -79,19 +79,19 @@ function NavBar(props) {
 
                 {/* <!-- mobile menu --> */}
                 <div className={"mobile-menu " + styles.transitionBurger}>
-                    <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-300">
+                    <a href="/#" className="block py-2 px-4 text-sm hover:bg-gray-300">
                         Home
                     </a>
-                    <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-300">
+                    <a href="/#" className="block py-2 px-4 text-sm hover:bg-gray-300">
                         Create Order
                     </a>
-                    <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-300">
+                    <a href="/#" className="block py-2 px-4 text-sm hover:bg-gray-300">
                         Track Order
                     </a>
-                    <a href="#" className="block py-2 pb-3 px-4 text-sm hover:bg-gray-300">
+                    <a href="/#" className="block py-2 pb-3 px-4 text-sm hover:bg-gray-300">
                         Create Customer
                     </a>
-                    <a href="#" className="block py-2 pb-3 px-4 text-sm hover:bg-gray-300">
+                    <a href="/#" className="block py-2 pb-3 px-4 text-sm hover:bg-gray-300">
                         Create User
                     </a>
                 </div>

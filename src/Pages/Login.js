@@ -40,7 +40,7 @@ const Login = () => {
     };
 
     //Login Handler
-    const loginHandler = () => {};
+    // const loginHandler = () => {};
 
     //Password Error Message JSX
     const Passworderror = (

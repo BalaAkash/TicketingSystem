@@ -5,7 +5,7 @@ const INITIAL_STATE = {
     userdata: null
 };
 
-export default (state = INITIAL_STATE, action) => {
+const Authreducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case LOGIN:
             return { ...state, isSignedIn: true, userdata: action.payload };
@@ -15,3 +15,5 @@ export default (state = INITIAL_STATE, action) => {
             return state;
     }
 };
+
+export default Authreducer;
